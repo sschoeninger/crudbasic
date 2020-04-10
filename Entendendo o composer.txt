@@ -1,0 +1,32 @@
+Entendendo o composer
+
+neste exemplo o primeiro autoload é de funcções e não de classes
+
+para isso chamada é files:
+
+"autoload":{
+        "files":[
+
+com isso é criado o arquivo autoload.php e
+
+uma pasta contendo os tipos de autoload files, classmap .... estudar cada um deles para ver o que fazem
+
+
+com isso o unico require que preciso é do /vendor/autoload.php no arquivo bootstrap.php que esta na raiz
+
+e nos arquivo que necessitam chamada de rotas... como contato.php dentro da pasta form
+
+
+dai depois que executei ele a primeira vez com 
+
+			composer install
+
+
+conforme eu vou adicionando funções eu vou implentando com 
+
+			composer dump-autoload -o
+
+
+
+
+

@@ -1,0 +1,15 @@
+Entendendo a lógica 
+
+
+index.php -----------> bootstrap.php ----------> vendor/autoload.php
+	|
+	|-----> pages.php ------> contato.php -------> forms/contato.php ----> validade.php
+				|											|					|
+				|----> load()								|					|-----> validate()
+				|											|					|
+				|											|---- get()			|----> isEmpty()
+				|------custom.php							|
+						|									|----->flash.php
+						|-----request()
+						|
+						|-----dd()
