@@ -22,13 +22,13 @@ function send(array $data) {
 	$email->CharSet = 'UTF-8';
 	$email->SMTPSecure = 'plain';//ssl
 	$email->isSMTP();
-	$email->Host = 'mail.schoninger.com.br';
+	$email->Host = 'smtp.domain.com.br';
 	$email->Port = 587;
 	$email->SMTPAuth = true;
-	$email->Username = 'sandro@schoninger.com.br';
-	$email->Password = 'Falcon40#';
+	$email->Username = 'user@domain.com.br';
+	$email->Password = 'password#';
 	$email->isHTML(true);
-	$email->setFrom('sandro@schoninger.com.br');
+	$email->setFrom('user@domain.com.br');
 	$email->FromName = $data['quem'];
 	$email->addAddress($data['para']);
 	$email->Body = $data['mensagem'];

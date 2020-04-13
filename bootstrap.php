@@ -6,5 +6,6 @@ session_start();
 
 require 'vendor/autoload.php';
 
-
+//$host = $_SERVER['HTTP_HOST']; //pegando o endereço pra nao precisar ficar alterando
+//define('INCLUDE_PATH','http://'.$host.'/schoninger/sandro/simplecrud/public');
 ?>

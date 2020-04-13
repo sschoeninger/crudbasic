@@ -30,14 +30,15 @@ function request() {
 
 function redirect($target) {
 
-	return header('location:/devclass/public/?page='.$target);
+	return header('location:/crudbasic/public/?page='.$target);
+//	return header('location:http://www.schoninger.com.br/sandro/crudbasic/public/?page='.$target);
 }
 
 //esta função é especifica para redirecionar para a home
 
 function redirectToHome() {
-	return header('location:/devclass/public/');
-
+	return header('location:/crudbasic/public/');
+	//return header('location:http://www.schoninger.com.br/sandro/crudbasic/public/');
 }
 
 ?>
