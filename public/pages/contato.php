@@ -30,8 +30,8 @@ O PHP também permite a tag curta echo <?= cujo uso é desencorajado pois essa o
 
 
     <div class="form-group">
-        <label for="">Mensage</label>
-        <textarea name="message" cols="30" rows="10" class="form-control"></textarea>
+        <label for="">Message</label>
+        <textarea name="message" cols="30" rows="6" class="form-control"></textarea>
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>
