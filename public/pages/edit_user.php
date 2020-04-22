@@ -13,7 +13,7 @@ $user = find('users', 'id', $_GET['id']); // aqui estou pegando o metodo find de
     <input type="hidden" name="id" value="<?=$user->id?>">
 
     <div class="form-group">
-        <label for="">Sobrenome</label>
+        <label for="">Last Name</label>
         <input type="text" class="form-control" name="sobrenome" placeholder="Input field" value="<?=$user->sobrenome?>">
     </div>
 
@@ -23,5 +23,5 @@ $user = find('users', 'id', $_GET['id']); // aqui estou pegando o metodo find de
     </div>
 
 
-    <button type="submit" class="btn btn-primary">atualizar</button>
+    <button type="submit" class="btn btn-primary">Update</button>
 </form>

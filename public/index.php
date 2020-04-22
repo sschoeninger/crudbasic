@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Curso de PHP devclass</title>
+    <title>Simple Crud</title>
     <!-- aqui embaixo estou inserindo o framework bootstrap ver o resultado nas configurações de css -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
@@ -13,8 +13,8 @@
         <br>
 <div class="navbar-static-top">
 <a href="?page=home" class="btn btn-primary">Home</a>
-<a href="?page=contato" class="btn btn-primary">Contato</a>
-<a href="?page=create_user" class="btn btn-primary">Cadastrar User</a>
+<a href="?page=contato" class="btn btn-primary">Contact</a>
+<a href="?page=create_user" class="btn btn-primary">New User</a>
 </div>
 
 <br><br>

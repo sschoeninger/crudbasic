@@ -1,4 +1,4 @@
-<h2>pagina de contato</h2>
+<h2>Contact</h2>
 <br>
 <?php
 /*uma forma diferente de chamar o php  

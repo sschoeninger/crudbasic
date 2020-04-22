@@ -1,5 +1,5 @@
 
-<h2>Cadastrar User</h2>
+<h2>New User</h2>
 
 <br>
 
@@ -13,8 +13,8 @@
     </div>
 
     <div class="form-group">
-        <label for="">Surname</label>
-        <input type="text" class="form-control" name="sobrenome" placeholder="Surname">
+        <label for="">Last Name</label>
+        <input type="text" class="form-control" name="sobrenome" placeholder="Last Name">
     </div>
 
     <div class="form-group">
@@ -28,7 +28,7 @@
     </div>
 
 
-    <button type="submit" class="btn btn-primary">cadastrar</button>
+    <button type="submit" class="btn btn-primary">Add</button>
 </form>
 
 

@@ -1,14 +1,14 @@
 
 
-<h2>pagina inicial</h2>
+<h2>List</h2>
 <br>
 
 <?php get('message');?>
 <table class="table table-striped table-hover">
     <thead>
         <tr>
-            <th>Nome</th>
-            <th>Sobrenome</th>
+            <th>Name</th>
+            <th>Last Name</th>
             <th>Email</th>
             <th></th>
             <th></th>
@@ -24,10 +24,10 @@ foreach ($users as $user):
             <td><?=$user->sobrenome;?></td>
             <td><?=$user->email;?></td>
             <td>
-                <a href="?page=edit_user&id=<?=$user->id;?>" class="btn btn-success">Editar</a>
+                <a href="?page=edit_user&id=<?=$user->id;?>" class="btn btn-success">Edit</a>
             </td>
             <td>
-                <a href="?page=delete_user&id=<?=$user->id;?>" class="btn btn-danger">Deletar</a>
+                <a href="?page=delete_user&id=<?=$user->id;?>" class="btn btn-danger">Del</a>
             </td>
         </tr>
     <?php endforeach;?>
